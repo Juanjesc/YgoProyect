@@ -1,0 +1,12 @@
+
+{
+    "normal": "#F8DB63", 
+    "effect": "#F7C46B",
+    "magic": "#7DCCA0",
+    "trap": "#D278B1",
+    "syncro": "#EFEBEC",
+    "link": "#004FCA",
+    "xyz": "#121216",
+    "fusion": "#9A82C1",
+    "pendulum": ["#7DCCA0","#F7C46B"]
+}
