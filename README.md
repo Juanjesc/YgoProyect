@@ -9,6 +9,7 @@ I'm a big fan of the Yu-gi-oh card game, and I wanted to have my own card finder
 In the future I will update this project with more features.
 
 It is a webapp designed to be used on a mobile device, but it also has its own desktop view, fully responsive.
+At the moment it is only possible to use the application in English. Since the Api used does not support the Spanish language.
 
 ## What did I need for this project?
 
