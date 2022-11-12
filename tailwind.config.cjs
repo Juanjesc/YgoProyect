@@ -15,9 +15,9 @@ module.exports = {
         customCard: "0 0 10px rgba(0, 0, 0, 0.3)",
       },
       backgroundImage: {
-        bgLink: "url('./src/img/bglinkmonster.png')",
-        bgxyz: "url('./src/img/xyz bg.jpg')",
-        bgImgApp: "url('./src/img/backgroundApp.jpg')",
+        bgLink: "url('src/img/bglinkmonster.png')",
+        bgxyz: "url('src/img/xyz bg.jpg')",
+        bgImgApp: "url('src/img/backgroundApp.jpg')",
       },
     },
   },
