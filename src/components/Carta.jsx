@@ -2,6 +2,7 @@ import React from "react";
 import useYgoContext from "../hooks/useYgoContext";
 import { useEffect } from "react";
 import ygoImg from "../img/diosesEgipcios.png"
+import '../styles/BgImages.css'
 
 
 const Carta = () => {
@@ -29,7 +30,7 @@ const Carta = () => {
                 : type === "Synchro Monster"
                 ? "bg-[#EFEBEC]"
                 : type === "Link Monster"
-                ? " bg-bgLink bg-cover bg-no-repeat"
+                ? " bgLink bg-cover bg-no-repeat"
                 : type === "Spell Card"
                 ? "bg-[#7DCCA0]"
                 : type === "Trap Card"
@@ -45,7 +46,7 @@ const Carta = () => {
                 : type === "XYZ Pendulum Effect Monster"
                 ? " bg-gradient-to-b from-[#121216] to-green-700"
                 : type === "XYZ Monster"
-                ? " bg-bgxyz bg-cover bg-no-repeat"
+                ? " bgXYZ bg-cover bg-no-repeat"
                 : type === "Fusion Monster"
                 ? "bg-[#9A82C1]"
                 : "bg-[#F8DB63]"
