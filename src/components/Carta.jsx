@@ -12,7 +12,7 @@ const Carta = () => {
   
   if (Object.keys(datosCard).length > 0){
     var { data } = datosCard
-    var {atk, def, desc, name, attribute, archetype, type, race, id, level, card_images, linkval} = data[0]
+    var {atk, def, desc, name, attribute, archetype, type, race, id, level, card_images, linkval, scale} = data[0]
 
   }
   return (
@@ -65,7 +65,7 @@ const Carta = () => {
               <img
                 src={card_images[0].image_url}
                 alt="imgYGOCard"
-                className=" mx-auto rounded-xl shadow-md shadow-black md:mx-0 md:h-full md:w-[30%] md:self-center "
+                className=" mx-auto rounded-xl shadow-md shadow-black md:mx-0 md:h-full md:w-[285px] md:self-center "
               />
               <div className=" md:flex md:flex-col">
                 <div className=" mt-4 flex flex-col">
@@ -75,6 +75,11 @@ const Carta = () => {
                   {level && (
                     <small className="text mt-2 block font-mono text-sm font-bold">
                       Level: {level}
+                    </small>
+                  )}
+                  {scale && (
+                    <small className="text mt-2 block font-mono text-sm font-bold">
+                      scale: {scale}
                     </small>
                   )}
                   {linkval && (
