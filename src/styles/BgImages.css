@@ -7,3 +7,15 @@
 .bgApp{
     background-image: url('../img/backgroundApp.jpg');
 }
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #72B3D5;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    color: red;
+    background-color: #064363;
+}
